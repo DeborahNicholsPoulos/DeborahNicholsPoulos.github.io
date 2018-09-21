@@ -1,0 +1,11 @@
+.gallery-row {
+  padding: 3%;
+}
+.gallery-descriptions{
+  padding-top: 1%;
+  padding-bottom: 3%;
+}
+.gallery-titles{
+  font-weight: bold;
+  font-size: 200%;
+}
