@@ -31,6 +31,7 @@ p {
 .text-section {
   min-height: 50vh;
   text-align: center;
+  font-size: 200%;
 }
 .nav {
   padding-left: 33px;
@@ -71,10 +72,6 @@ p {
   text-align: center;
 }
 
-.text-section {
-  font-size: 200%;
-}
-
 .footer {
   margin-top: 30px;
   padding-top: 20px;
@@ -87,4 +84,19 @@ p {
 }
 .link{
   color: var(--blue);
+}
+/*Mobile Settings*/
+@media (max-width:600px){
+  .text-section {
+    min-height: 50vh;
+    text-align: center;
+    font-size: 100%;
+  }
+  .nav-brand {
+    margin-bottom: 40px;
+    font-size: 120%;
+    font-weight: 600;
+    color: black;
+    font-family: 'Times New Roman', sans-serif;
+  }
 }
