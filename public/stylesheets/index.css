@@ -1,13 +1,18 @@
 :root {
   --blue: #4682ea;
-  --red: #e8453c;
+  --red: #FF9F95;
   --green: #39ca74;
+  --rose: #FFE4E1;
+  --gray: #D3D3D3;
 }
 body {
   scroll-behavior: smooth;
 }
+p {
+ font-size: 120%;
+}
 #navbar {
-  background-color: rgba(255,255,255,.9);
+  background-color: var(--rose);
   /* background-color: rgba(73,133,231255,.9); */
   border: none;
 }
@@ -33,7 +38,7 @@ body {
 }
 .nav-brand {
   margin-bottom: 40px;
-  font-size: 130%;
+  font-size: 150%;
   font-weight: 600;
   color: black;
   font-family: 'Times New Roman', sans-serif;
@@ -46,26 +51,40 @@ body {
 }
 .navbar-font {
   font-family: 'Times New Roman', sans-serif;
-  font-weight: 500;
+  font-weight: 750;
   text-transform: uppercase;
   color: black;
+  font-size: 150%;
 }
 .active-nav{
-  background-color: var(--blue);
+  background-color: var(--red);
 }
 .container {
   width: 100%;
-  padding-left: 25px;
-  padding-right: 25px;
+  padding-left: 20%;
+  padding-right: 20%;
 }
 
 .primary-section {
   min-height: 50vh;
-  padding-top:20vh;
+  padding-top: 10vh;
   text-align: center;
 }
 
 .text-section {
-  min-height: 50vh;
+  font-size: 200%;
+}
+
+.footer {
+  margin-top: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
   text-align: center;
+  font-size: 200%;
+  background-color: var(--gray);
+}
+.link{
+  color: var(--blue);
 }
