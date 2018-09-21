@@ -85,6 +85,9 @@ p {
 .link{
   color: var(--blue);
 }
+.gallery-row {
+  padding: 3%;
+}
 /*Mobile Settings*/
 @media (max-width:600px){
   .text-section {
