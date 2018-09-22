@@ -9,7 +9,7 @@ body {
   scroll-behavior: smooth;
 }
 p {
- font-size: 120%;
+ font-size: 100%;
 }
 #navbar {
   background-color: var(--rose);
@@ -30,8 +30,8 @@ p {
 
 .text-section {
   min-height: 50vh;
-  text-align: center;
-  font-size: 200%;
+  text-align: left;
+  font-size: 170%;
 }
 .nav {
   padding-left: 33px;
@@ -64,6 +64,7 @@ p {
   width: 100%;
   padding-left: 20%;
   padding-right: 20%;
+  min-height: 50vh;
 }
 
 .primary-section {
@@ -84,14 +85,16 @@ p {
 }
 .link{
   color: var(--blue);
-  
+
 /*Mobile Settings*/
-@media (max-width:600px){
+
+@media (max-width:600px) {
   .text-section {
     min-height: 50vh;
-    text-align: center;
+    text-align: left;
     font-size: 100%;
   }
+
   .nav-brand {
     margin-bottom: 40px;
     font-size: 120%;
