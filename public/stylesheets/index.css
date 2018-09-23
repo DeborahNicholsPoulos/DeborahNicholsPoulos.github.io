@@ -18,8 +18,9 @@ p {
 }
 .container {
   width: 100%;
-  padding-left: 25px;
-  padding-right: 25px;
+  padding-left: 5%;
+  padding-right: 5%;
+  min-height: 50vh;
 }
 
 .primary-section {
@@ -59,12 +60,6 @@ p {
 }
 .active-nav{
   background-color: var(--red);
-}
-.container {
-  width: 100%;
-  padding-left: 20%;
-  padding-right: 20%;
-  min-height: 50vh;
 }
 
 .primary-section {

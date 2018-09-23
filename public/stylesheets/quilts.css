@@ -4,8 +4,13 @@
 .gallery-descriptions{
   padding-top: 1%;
   padding-bottom: 3%;
+  font-size: 140%;
+  font-weight: bolder;
 }
 .gallery-titles{
   font-weight: bold;
   font-size: 200%;
+}
+p {
+  font-size: 150%;
 }
