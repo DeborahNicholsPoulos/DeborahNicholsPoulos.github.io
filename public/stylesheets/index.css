@@ -80,19 +80,18 @@ p {
 }
 .link{
   color: var(--blue);
-
+}
 /*Mobile Settings*/
-
 @media (max-width:600px) {
   .text-section {
     min-height: 50vh;
     text-align: left;
-    font-size: 100%;
+    font-size: 120%;
   }
 
   .nav-brand {
     margin-bottom: 40px;
-    font-size: 120%;
+    font-size: 130%;
     font-weight: 600;
     color: black;
     font-family: 'Times New Roman', sans-serif;
